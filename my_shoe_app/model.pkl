@@ -1,0 +1,6 @@
+import pickle
+
+# Simpan model
+with open("model.pkl", "wb") as file:
+    pickle.dump(best_model, file)
+

@@ -1,0 +1,4 @@
+import pickle
+# Simpan OneHotEncoder
+with open("encoder.pkl", "wb") as file:
+    pickle.dump(ohe, file)
