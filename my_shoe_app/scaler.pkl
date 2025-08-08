@@ -1,4 +1,0 @@
-import pickle
-# Simpan StandardScaler
-with open("scaler.pkl", "wb") as file:
-    pickle.dump(scaler, file)
